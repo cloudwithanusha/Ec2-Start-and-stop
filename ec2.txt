@@ -1,4 +1,4 @@
- [200~import boto3
+import boto3
 from datetime import datetime
 
 ec2 = boto3.client('ec2', region_name='ap-south-1')
